@@ -11,12 +11,12 @@ const bot = new Telegraf(TOKEN);
 
 async function sendTgMessage() {
   const htmlContent = `
-    <h1>每日消息</h1>
-    <p>这是一个固定的 HTML 格式的消息内容。</p>
-    <ul>
-      <li>项目1</li>
-      <li>项目2</li>
-      <li>项目3</li>
+    <b>每日消息</b>\n
+    <p>这是一个固定的 HTML 格式的消息内容。</p>\n
+    <ul>\n
+      <li>项目1</li>\n
+      <li>项目2</li>\n
+      <li>项目3</li>\n
     </ul>
   `;
 
