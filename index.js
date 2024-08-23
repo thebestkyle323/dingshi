@@ -10,11 +10,20 @@ const bot = new Telegraf(TOKEN);
 
 async function sendTgMessage() {
   const htmlContent = `
-    <b>每日消息</b>\n
-    这是一个固定的 HTML 格式的消息内容。\n\n
-    <a href="https://www.baidu.com">项目1</a>\n
-    项目2\n
-    项目3
+    <b>全权限苹果UDID证书</b>\n\n
+    
+    证书支持：\n
+    官微和多开微信无后台消息推送\n
+    支持支付宝修改步数\n\n
+    
+    秒出证书（证书秒出，掉签秒补）\n
+    质保1年：￥110，质保半年：￥90，质保30天：￥50，无质保：￥35\n
+    预约证书（一般72小时出证书）\n
+    质保1年：￥60，质保30天：￥30，无质保：￥15\n\n
+    
+    爱玩小店：<a href="https://m.iwanshare.club">证书购买</a>\n
+    证书签名：<a href="https://udid.iwanshare.club">点击前往</a>\n
+    
   `;
 
   try {
