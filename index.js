@@ -10,7 +10,7 @@ const bot = new Telegraf(TOKEN);
 
 async function sendTgMessage() {
   const htmlContent = `
-    <b>苹果全权限UDID证书</b> (<a href="https://docs.qq.com/doc/DRlByYkFobFdGTE9Z">教程合集</a>)
+<b>苹果全权限UDID证书</b> (<a href="https://docs.qq.com/doc/DRlByYkFobFdGTE9Z">教程合集</a>)
     
     <b>证书支持：</b>
     官微和多开微信无后台消息推送
@@ -21,13 +21,13 @@ async function sendTgMessage() {
     
     <b>预约证书（一般72小时出证书）:</b>
     质保1年:60，质保30天:30，无质保:15
+    
 <b>限时特惠：凡购买110和60年质保用户享以下福利</b>    
-    <blockquote>
-    ①均送iPad证书一个
+    <blockquote>①均送iPad证书一个
     ②推荐1个人购买，获得优惠30%
     ③推荐2个人购买，获得优惠60%
-    ④推荐3个人购买，获得免费证书
-    </blockquote>
+    ④推荐3个人购买，获得免费证书</blockquote>
+    
 <b><a href="https://m.iwanshare.club">证书购买</a> | <a href="https://udid.iwanshare.club">证书签名</a> | <a href="https://vip.iosfans.club">iOS社区</a></b>
   `;
 
