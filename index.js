@@ -23,12 +23,13 @@ async function sendTgMessage() {
     质保1年:60，质保30天:30，无质保:15
     
 <b>限时特惠：凡购买110和60年质保用户享以下福利</b>    
-    <pre>
+    <blockquote>
     ①均送iPad证书一个
     ②推荐1个人购买，获得优惠30%
     ③推荐2个人购买，获得优惠60%
     ④推荐3个人购买，获得免费证书
-    </pre>
+    </blockquote>
+    
 <b><a href="https://m.iwanshare.club">证书购买</a> | <a href="https://udid.iwanshare.club">证书签名</a> | <a href="https://vip.iosfans.club">iOS社区</a></b>
   `;
 
