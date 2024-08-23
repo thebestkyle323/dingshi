@@ -1,0 +1,19 @@
+{
+  "name": "dingshi",
+  "version": "1.0.0",
+  "description": "A Telegram bot for sending daily updates",
+  "main": "index.js", // 替换为你的脚本文件名
+  "scripts": {
+    "start": "index.js" // 替换为你的脚本文件名
+  },
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "telegraf": "^4.11.0",
+    "node-cron": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0" // 根据需要调整 Node.js 版本
+  },
+  "author": "",
+  "license": "MIT"
+}
