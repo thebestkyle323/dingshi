@@ -1,4 +1,3 @@
-import dayjs from 'dayjs';
 import { Telegraf } from 'telegraf';
 
 // 从环境变量中读取配置
@@ -12,22 +11,16 @@ const bot = new Telegraf(TOKEN);
 async function sendTgMessage() {
   const htmlContent = `
     <b>每日消息</b>\n
-    这是一个固定的 HTML 格式的消息内容。\n
-    \n
-      <a href="https://www.baidu.com">项目1</a>\n
-      项目2\n
-      项目3\n
-    
+    这是一个固定的 HTML 格式的消息内容。\n\n
+    <a href="https://www.baidu.com">项目1</a>\n
+    项目2\n
+    项目3
   `;
 
   try {
     // 发送图片和 HTML 格式的内容到第一个频道
     await bot.telegram.sendPhoto(CHANNEL_ID_1, IMAGE_URL, {
-      caption: '请查看以下内容：',
-      parse_mode: 'HTML',
-    });
-
-    await bot.telegram.sendMessage(CHANNEL_ID_1, htmlContent, {
+      caption: htmlContent, // HTML 内容作为图片的 caption 发送
       parse_mode: 'HTML',
     });
 
