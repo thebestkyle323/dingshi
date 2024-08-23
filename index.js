@@ -4,13 +4,13 @@ import { Telegraf } from 'telegraf';
 const TOKEN = process.env.TOKEN;
 const CHANNEL_ID_1 = process.env.CHANNEL_ID_1; // Telegram 频道 ID
 
-const IMAGE_URL = 'https://app.iwanshare.club/uploads/20240814/cf643ec476d0a9afff266f7a18695bea.jpg'; // 替换成实际的图片链接
+const IMAGE_URL = 'https://app.iwanshare.club/uploads/20240823/daa5482498fc93302a3b91af395fc091.png'; // 替换成实际的图片链接
 
 const bot = new Telegraf(TOKEN);
 
 async function sendTgMessage() {
   const htmlContent = `
-    <b>苹果全权限UDID证书</b>\n
+    <b>苹果全权限UDID证书</b><a href="https://docs.qq.com/doc/DRlByYkFobFdGTE9Z">教程合集</a>\n
     
     证书支持：\n
     官微和多开微信无后台消息推送\n
