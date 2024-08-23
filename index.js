@@ -27,7 +27,7 @@ async function sendTgMessage() {
     ②推荐1个人购买，获得优惠30%。
     ③推荐2个人购买，获得优惠60%。
     ④推荐3个人购买，获得免费证书。
-<code>注意：仅限购买110和60年质保套餐</code>
+<code>  注意：仅限购买110和60年质保套餐</code>
 
 <b><a href="https://udid.iwanshare.club">证书购买</a> ▎<a href="https://vip.iosfans.club">iOS社区</a> ▎<a href="https://m.iwanshare.club?cid=2&mid=101">苹果账号</a></b>
   `;
