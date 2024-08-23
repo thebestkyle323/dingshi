@@ -30,7 +30,7 @@ async function sendTgMessage() {
     ④推荐3个人购买，获得免费证书
     </blockquote>
     
-<b><a href="https://m.iwanshare.club">证书购买</a> | <a href="https://udid.iwanshare.club">证书签名</a> | <a href="https://vip.iosfans.club">iOS社区</a></b>
+<b><a href="https://udid.iwanshare.club">证书购买</a> | <a href="https://vip.iosfans.club">iOS社区</a> | <a href="https://m.iwanshare.club?cid=2&mid=101">苹果账号</a> | </b>
   `;
 
   try {
