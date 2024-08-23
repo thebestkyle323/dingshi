@@ -25,4 +25,4 @@ jobs:
         env:
           TOKEN: ${{ secrets.TOKEN }}
           CHANNEL_ID_1: ${{ secrets.CHANNEL_ID_1 }}
-        run: index.js # 将 `your-script-file.js` 替换为实际的脚本文件名
+        run: node index.js # 将 `your-script-file.js` 替换为实际的脚本文件名
