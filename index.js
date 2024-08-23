@@ -12,18 +12,19 @@ async function sendTgMessage() {
   const htmlContent = `
     <b>苹果全权限UDID证书</b> (<a href="https://docs.qq.com/doc/DRlByYkFobFdGTE9Z">教程合集</a>)
     
-    证书支持：
+    <b>证书支持：</b>
     官微和多开微信无后台消息推送
     支持支付宝修改步数
     
-    秒出证书（证书秒出，掉签秒补）:
+    <b>秒出证书（证书秒出，掉签秒补）:</b>
     质保1年:110，质保半年:90，质保30天:50，无质保:35
-    预约证书（一般72小时出证书）:
+    
+    <b>预约证书（一般72小时出证书）:</b>
     质保1年:60，质保30天:30，无质保:15
     
-<b>限时特惠，凡购买110和60年质保用户均送ipad证书一个</b>
+<b>限时特惠，凡购买110和60年质保用户均送iPad证书一个</b>
     
-<a href="https://m.iwanshare.club">证书购买</a> | <a href="https://udid.iwanshare.club">证书签名</a> | <a href="https://vip.iosfans.club">iOS社区</a>\n
+<b><a href="https://m.iwanshare.club">证书购买</a> | <a href="https://udid.iwanshare.club">证书签名</a> | <a href="https://vip.iosfans.club">iOS社区</a></b>
   `;
 
   try {
