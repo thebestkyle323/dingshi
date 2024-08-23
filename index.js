@@ -13,11 +13,11 @@ async function sendTgMessage() {
   const htmlContent = `
     <b>每日消息</b>\n
     这是一个固定的 HTML 格式的消息内容。\n
-    <ul>\n
-      <li><a href="https://www.baidu.com">项目1</a></li>\n
-      <li>项目2</li>\n
-      <li>项目3</li>\n
-    </ul>
+    \n
+      <a href="https://www.baidu.com">项目1</a>\n
+      项目2\n
+      项目3\n
+    
   `;
 
   try {
